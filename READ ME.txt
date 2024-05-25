@@ -1,0 +1,77 @@
+*************************************************************************************************
+************* HI I AM SUGESH *********************************
+**************************************************************
+Hi, I am Sugesh from Chennai,
+I think this read me file is usefull to understand the subission easier.
+
+
+>>>This hackathon folder contains three diffrent folders
+1.Data Set
+2.Round 1 submision
+3.Round 2 submission
+
+* In the data set folder you can access the data set that you are given 
+* In Round 1 folder round 1 submissions are available 
+* In Round 2 folder the final prototype dashboard is available
+-------------------------------------------------------------------------------------
+>>>Round 2 folder >>>> round 2 dasboard.pbix file 
+If you want to access the round 2 dashboard.pbix file you need to install the Power BI
+Software.you can download from microsoft store or the link is given below
+
+Power BI - Software
+------ Download Link------
+""https://www.microsoft.com/store/productId/9NTXR16HNW1T?ocid=pdpshare""
+
+Steps to access the file:
+------------------------- 
+step 1 : download the power bi tool from the above link
+step 2 : click the pbix file it will automatically open in the power bi tool to viewthe 
+	 dashboard
+step 3 : follow the same step to access the round 1 submission also.
+
+------------------------------------------------------------------------------------------
+TASK ANALSIS:
+ -----DashboardInsights-------
+
+1.IDENTIFY THE POPULAR INVESMENTS :
+
+	1.Mutual Funds  - Based on the invesment amount i selected the top 10 performers 
+	2.Fixed Deposit - Based on Maturity amount i selected the top 10
+	3.Stocks        - In Stocks i implemented the formula of invesment amount
+			   [INVESMENT AMOUNT = PURCHASE PRICE x QUANTITY]
+
+2.TOP PERFORMING INVESMENTS :
+
+	-It will be decided based on the active high returns
+
+3.HIGH NET WORTH INVESTORS :
+
+	-I categorize it by invesment portfolio and invesment amounts 
+
+4.HISTORICAL RETURNS :
+
+	-In This phase i collect the last six months return values and invesments based on 
+	 the data i categorized top 5 customers
+
+5.TAX ASSESSMENT :
+ ----There are three categories of problem statements that are given --
+	1.For FD's tax calculation -
+		1.collect the selling price and purchase price 
+		2.Holding Period calculation,
+			[HP= IF(Purchase date -current date)<=365,"short term","long Term")]
+		3.Captial Gain ,[=selling price - purchase price]
+		4.Tax Rate,[=IF(Capital Gain >100000,10%,0)]
+		5.Tax liability,[=Capital * Tax Rate]
+	2. For Stocks Tax calculation -
+		1.collect the selling price and purchase price 
+		2.Holding Period calculation,
+			[HP= IF(Purchase date -current date)<=365,"short term","long Term")]
+		3.Captial Gain ,[=selling price - purchase price]
+		4.Tax Rate,[=IF(Holding Period ="short Term",15%,IF(Holding Period="Long Term",IF(Capital Gain >100000,10%,0),0))
+		5.Tax liability,[=Capital * Tax Rate]
+	3.For Mutual funds I didn't get a enough data
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+********************************THANK YOU*****************************************************************************************
+ 
